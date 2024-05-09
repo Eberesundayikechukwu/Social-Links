@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+  font-weight: 200;
+}
+
+body{
+  height: 100vh;
+  background: hsl(0, 0%, 8%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container{
+  min-width: 300px;
+  width: 20%;
+  height: 60%;
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: paragraphs;
+  
+}
+
+.main-container img{
+  width: 40%;
+  border-radius: 50%;
+}
+.main-container h1{
+ font-size: 22px;
+ font-weight: 400;
+}
+.main-container h3{
+ font-size: 12px;
+ margin: 5px;
+ color: hsl(75, 94%, 57%);
+}
+
+.dropdown-section{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.dropdown-section p{
+   background-color: hsl(0, 0%, 20%);
+   padding: 10px;
+   margin: 5px;
+   border-radius: 5px;
+}
+
+
+.dropdown-section p:hover{
+   background: hsl(75, 94%, 57%);
+   color: hsl(0, 0%, 12%);
+}
+
+@media screen and (max-width: 616px){
+  .main-container{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 375px){
+  .main-container{
+    width: 80%;
+    height: 58%;
+  }
+}
